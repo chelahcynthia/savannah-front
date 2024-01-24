@@ -12,12 +12,12 @@ const Home = () => {
                 </div>
                 {/* banner */}
                 <div className='md:w-/5'>
-                    <h2 className=''>Check out your favorite album whenever!</h2>
-                    <p>"Let's get lost in the music and forget about the
+                    <h2 className='md:text-7xl text-4xl font-bold text-white mb-6 leading-relaxed'>Check Out Your Favorite Album Whenever!</h2>
+                    <p className='text-[#EBEBEB] text-2xl mb-8'>"Let's get lost in the music and forget about the
                       world for a while</p>
-                      <div>
-                        <button>Get Started</button>
-                        <button>Discover!</button>
+                      <div className='space-x-5 space-y-4'>
+                        <button className='btnPrimary'>Get Started</button>
+                        <button className='btnPrimary'>Discover!</button>
                         </div>
                 </div>
                
