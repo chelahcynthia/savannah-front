@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { FaXmark } from "react-icons/fa6";
+import { FaBars } from "react-icons/fa6";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -31,11 +33,11 @@ const Navbar = () => {
 
            </div>
            {/* menu btn, only display on mobile */}
-           <div className='hidden'>
+           <div className='md:hidden'>
             <button onClick={toggleMenu} className='text-white focus:outline-none
             focus:text-gray-300'>
               {
-                isMenuOpen ? () => ();
+              isMenuOpen ? (<FaXmark className='w-8 h-6 text-primary'/>) : (<FaBars className='w-8 h-6 text-primary'/>)
               }
 
             </button>
