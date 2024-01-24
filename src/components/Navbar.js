@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className='text-lg container mx-auto flex justify-between items-center font-medium'>
           <div className='flex space-x-14 items-center'>
            <h1 className='font-bold text-primary text-2xl flex'>PRACT</h1> 
-           <ul className='md:flex space-x-12'>
+           <ul className='md:flex space-x-10'>
             {/* show links using map method. */}
             {
               navItems.map(({link, path}) => <a key={link} href={path} className='block 
