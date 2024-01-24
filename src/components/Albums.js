@@ -19,7 +19,7 @@ const Albums = () => {
 
                 </div>
             </div>
-            <div className='bg-[rgba(255, 255, 255, 0.04) rounded-[35px] h-96 shadow-3xl p-8 items bg-center flex justify-center items-center hover:translate-y-4 transition-all duration-300 cursor-pointer'>
+            <div className='bg-[rgba(255, 255, 255, 0.04) rounded-[35px] h-96 shadow-3xl p-8 items bg-center flex justify-center items-center hover:translate-y-4 transition-all duration-300 cursor-pointer md:mt-16'>
                 <div>
                     <img src={featuredImage} alt="" />
                     <h3 text-2xl font-semibold text-primary px-5 text-center>Trouble In Paradise - Shekhinah</h3>

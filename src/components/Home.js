@@ -1,4 +1,5 @@
 import React from 'react'
+import Albums from './Albums';
 import rectangle from '../assets/Rectangle 8.png';
 
 const Home = () => {
@@ -21,11 +22,12 @@ const Home = () => {
                         </div>
                 </div>
                
-
             </div>
         </div>
+                <Albums />
         </div>
   )
 }
+
 
 export default Home
